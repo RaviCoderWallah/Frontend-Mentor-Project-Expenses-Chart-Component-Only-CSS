@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ravi Verma">
+    <title>Frontend Mentor Project - Expenses chart component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chart-main-container">
+        <div class="chart-inner-container">
+            <div class="chart-header">
+                <div class="chart-header__text">
+                    <p>My balance</p>
+                    <h2 id="balance">$921.48</h2>
+                </div>
+                <div class="chart-header__logo">
+                    <img src="logo.svg" alt="Chart Component Logo">
+                </div>
+            </div>
+            <div class="chart-content">
+                <div class="chart-content__heading">
+                    <h1>Spending - Last 7 days</h1>
+                </div>
+                <div class="chart-content__chart">
+                    <div class="chart-columns-container">
+                        <div class="chart-columns" id="mon">
+                            <div class="hover-amount"><p>17.45%</p></div>
+                            <div class="chart-columns-amount-fill"></div>
+                             <p>mon</p>
+                        </div>   
+                        <div class="chart-columns" id="tue">
+                            <div class="hover-amount"><p>34.91%</p></div>
+                            <div class="chart-columns-amount-fill"></div>
+                            <p>tue</p>
+                        </div>
+                        <div class="chart-columns" id="wed">
+                            <div class="hover-amount"><p>52.36%</p></div>
+                            <div class="chart-columns-amount-fill"></div>
+                            <p>wed</p>
+                        </div>
+                        <div class="chart-columns" id="thu">
+                            <div class="hover-amount"><p>31.07%</p></div>
+                            <div class="chart-columns-amount-fill"></div>
+                            <p>thu</p>
+                        </div>
+                        <div class="chart-columns" id="fri">
+                            <div class="hover-amount"><p>23.09%</p></div>
+                            <div class="chart-columns-amount-fill"></div>
+                            <p>fri</p>
+                        </div>
+                        <div class="chart-columns" id="sat">
+                            <div class="hover-amount"><p>43.28%</p></div>
+                            <div class="chart-columns-amount-fill"></div>
+                            <p>sat</p>
+                        </div>
+                        <div class="chart-columns" id="sun">
+                            <div class="hover-amount"><p>25.48%</p></div>
+                            <div class="chart-columns-amount-fill"></div>
+                            <p>sun</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="chart-content__total">
+                    <div class="chart-content__current-month">
+                        <p> Total this month</p>
+                        <h1>$478.33</h1>
+                    </div>
+                    <div class="chart-content__last-month">
+                        <p id="percentage"><strong>+2.4%</strong></p>
+                        <p>from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
